@@ -1,0 +1,11 @@
+#Credit to NebulaEmpress
+4.times do
+  sample :elec_beep, rate: 0.5
+  sleep 0.5
+  3.times { drum_pattern_b }
+  2.times  { drum_pattern_a }
+  5.times  { drum_pattern_b }
+  6.times { drum_pattern_c }
+  1.times  { drum_pattern_a }
+  7.times  { drum_pattern_b }
+end
